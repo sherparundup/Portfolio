@@ -1,0 +1,68 @@
+.pic:hover{
+    width: 300px;
+    
+    
+}
+.word:hover {
+  color:rgb(23, 95, 7);
+  font-weight: bold;
+  cursor: pointer;
+}
+.topnav{
+    display: flex;
+    justify-content: space-evenly;
+    overflow: hidden;
+    background-color:black;
+    text-align: center;
+  }
+  .topnav:hover{
+    background-color:rgb(19, 18, 18);
+    border-radius: 0px;
+    border: 10px solid;
+    border-color:sandybrown ;
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function:  ease-in-out;
+    transition-delay: 0s;
+    font-size: large;
+    
+    
+  
+  }
+  .line{
+    display: flex;
+    justify-content: space-between;
+  }
+  .p{
+    color: black;
+    font-size: 8vw;
+    font-family: "rubik",sans-serif;
+    margin: 0rem;
+    text-transform: uppercase;
+  
+  }
+  
+  
+  body {
+    height: 100vh;
+    background-color: black;
+    margin: 0rem;
+    overflow: hidden;
+    display: grid;
+    place-items: center;
+  }
+  
+  .line {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .word {
+    color: white;
+    font-size: clamp(2rem, 8vw, 10rem);
+    font-family: "Rubik", sans-serif;
+    margin: 0rem;
+    text-transform: uppercase;
+    transition: opacity 250ms ease;
+  }
+

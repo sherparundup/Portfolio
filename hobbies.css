@@ -1,0 +1,45 @@
+@import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css";
+.video{
+    display: grid;
+    grid-auto-flow: column;
+    gap: var(--size-3);
+    grid-auto-columns: 23%;
+
+    overflow-x:auto;
+}
+.v1{
+    padding:var(--size-3);
+    background: var(--surface-4);
+    border-radius: var(--radius-2);
+    
+}
+.head {
+    overflow-y: auto;
+}
+.blender ko video{
+    display: grid;
+    grid-auto-flow: column;
+    gap: var(--size-3);
+    grid-auto-columns: 23%;
+
+    overflow-x:auto;
+}
+.v2{
+    padding:var(--size-3);
+    background: var(--surface-4);
+    border-radius: var(--radius-2);
+}
+.anime{
+    display: grid;
+    grid-auto-flow: column;
+    gap: var(--size-3);
+    grid-auto-columns: 23%;
+
+    overflow-x:auto;
+}
+.v3{
+    padding:var(--size-3);
+    background: var(--surface-4);
+    border-radius: var(--radius-2);
+}
