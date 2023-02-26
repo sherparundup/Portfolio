@@ -154,3 +154,7 @@ section::after {
     text-align: left;
     width: 100%;
     margin: 0}}
+
+.foot{
+  border-top: 80%;
+}
